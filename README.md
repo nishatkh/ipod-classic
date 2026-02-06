@@ -11,7 +11,7 @@
 <br><br>
 
 <!-- Animated GIF -->
-<img src="https://media.giphy.com/media/3o7TKSjRrfIPjeiVyM/giphy.gif" width="200" alt="Music Nostalgia" style="border-radius: 15px;"/>
+<img src="https://media.baamboozle.com/uploads/images/748172/6ffc8a6b-dd37-4983-98ef-cbc7b15f1aa1.gif" style="border-radius: 15px;"/>
 
 <br><br>
 
