@@ -357,19 +357,6 @@ git push origin feature/AmazingFeature
 # Open a Pull Request
 ```
 
-<div align="center">
-
-### 💡 Ideas for Contributions
-🎨 Add more iPod themes (Mini, Shuffle, Nano)
-🎵 Implement playlist creation/editing
-🔊 Add equalizer presets
-🌐 Multi-language support
-📊 Statistics & listening history
-🎮 Keyboard shortcuts
-♿ Accessibility improvements
-
-</div>
-
 ---
 
 <div align="center">
