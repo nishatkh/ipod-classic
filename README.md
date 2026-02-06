@@ -70,7 +70,7 @@ A pixel-perfect recreation of the iconic iPod Classic. Pure music. Pure nostalgi
 
 ## 🎪 Live Demo
 
-<a href="https://nishatkh.github.io/ipod-classic">
+<a href="https://ipodmusics.netlify.app/">
   <img src="https://img.shields.io/badge/🚀_Launch_App-Click_Here-FF6B00?style=for-the-badge&labelColor=000000&logoColor=white" alt="Launch App" height="50"/>
 </a>
 
@@ -116,6 +116,44 @@ Zero internet dependency
 </td>
 </tr>
 </table>
+<div align="center">
+
+## 📱 Installing as a PWA
+
+</div>
+
+<table>
+<tr>
+<td width="33%" align="center">
+
+### 🤖 Android
+1. Open in Chrome
+2. Tap menu (⋮)
+3. "Install App"
+4. Enjoy full-screen mode!
+
+</td>
+<td width="33%" align="center">
+
+### 🍎 iOS
+1. Open in Safari
+2. Tap Share button
+3. "Add to Home Screen"
+4. Launch from home!
+
+</td>
+<td width="33%" align="center">
+
+### 💻 Desktop
+1. Open in Chrome/Edge
+2. Click install icon (⊕)
+3. "Install iPod Classic"
+4. Use like native app!
+
+</td>
+</tr>
+</table>
+
 
 ### 🎵 Core Features
 
@@ -179,82 +217,6 @@ Zero internet dependency
 ## 🚀 Quick Start
 
 </div>
-
-### Prerequisites
-
-```bash
-Node.js 18+ and npm/yarn/pnpm
-```
-
-### Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/nishatkh/ipod-classic.git
-
-# Navigate to directory
-cd ipod-classic
-
-# Install dependencies
-npm install
-# or
-yarn install
-# or
-pnpm install
-
-# Start development server
-npm run dev
-```
-
-### Build for Production
-
-```bash
-# Create optimized production build
-npm run build
-
-# Preview production build locally
-npm run preview
-```
-
----
-
-<div align="center">
-
-## 📱 Installing as a PWA
-
-</div>
-
-<table>
-<tr>
-<td width="33%" align="center">
-
-### 🤖 Android
-1. Open in Chrome
-2. Tap menu (⋮)
-3. "Install App"
-4. Enjoy full-screen mode!
-
-</td>
-<td width="33%" align="center">
-
-### 🍎 iOS
-1. Open in Safari
-2. Tap Share button
-3. "Add to Home Screen"
-4. Launch from home!
-
-</td>
-<td width="33%" align="center">
-
-### 💻 Desktop
-1. Open in Chrome/Edge
-2. Click install icon (⊕)
-3. "Install iPod Classic"
-4. Use like native app!
-
-</td>
-</tr>
-</table>
 
 ---
 
@@ -486,7 +448,6 @@ MIT License - feel free to use this project for learning, personal use, or comme
 
 <br>
 
-### 🎵 Made with ❤️ and Nostalgia
 
 <br>
 
