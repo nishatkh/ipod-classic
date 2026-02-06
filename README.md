@@ -189,22 +189,22 @@ Zero internet dependency
 
 ### 🏠 Main Interface
 
-<img src="https://via.placeholder.com/300x600/000000/FFFFFF?text=Main+Menu+Screenshot" alt="Main Menu" width="250"/>
-<img src="https://via.placeholder.com/300x600/000000/FFFFFF?text=Now+Playing+Screenshot" alt="Now Playing" width="250"/>
-<img src="https://via.placeholder.com/300x600/000000/FFFFFF?text=Settings+Screenshot" alt="Settings" width="250"/>
+<img src="https://i.postimg.cc/J4kJk3tj/Screenshot-2026-02-07-at-3-58-47-AM.png" alt="Main Menu" width="250"/>
+<img src="https://i.postimg.cc/prn9KxW3/Screenshot-2026-02-07-at-3-58-32-AM.png" alt="Now Playing" width="250"/>
+<img src="https://i.postimg.cc/MZct9QvG/Screenshot-2026-02-07-at-3-58-20-AM.png" alt="Settings" width="250"/>
 
 ---
 
 ### 💿 Cover Flow & Library
 
-<img src="https://via.placeholder.com/800x450/000000/FFFFFF?text=Cover+Flow+View" alt="Cover Flow" width="700"/>
+<img src="https://i.postimg.cc/HxFwq6V0/Screenshot-2026-02-07-at-4-01-23-AM.png" width="700"/>
 
 ---
 
 ### 📱 Mobile Experience
 
-<img src="https://via.placeholder.com/300x600/000000/FFFFFF?text=Mobile+Portrait" alt="Mobile" width="200"/>
-<img src="https://via.placeholder.com/600x300/000000/FFFFFF?text=Mobile+Landscape" alt="Landscape" width="400"/>
+<img src="https://i.postimg.cc/NM2TkRbW/Screenshot-2026-02-07-at-4-03-29-AM.png" alt="Mobile" width="200"/>
+
 
 </div>
 
