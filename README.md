@@ -11,7 +11,7 @@
 <br><br>
 
 <!-- Animated GIF -->
-<img src="https://media.baamboozle.com/uploads/images/748172/6ffc8a6b-dd37-4983-98ef-cbc7b15f1aa1.gif" style="border-radius: 15px;"/>
+<img src="https://media3.giphy.com/media/v1.Y2lkPTZjMDliOTUyZTd5b3lnN3UyZm44Y3RwbmxhZTM4Znk1NHBvZ3Y2N3pwNWFsenFnZCZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/VBBR7emAPz2mEKP0fW/200w.gif" style="border-radius: 15px;"/>
 
 <br><br>
 
