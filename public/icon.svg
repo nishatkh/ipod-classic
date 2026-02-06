@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <!-- Detailed realistic gradients -->
+    <linearGradient id="bodyBase" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f8f8fa" />
+      <stop offset="30%" stop-color="#e8e8ea" />
+      <stop offset="70%" stop-color="#cfcfd2" />
+      <stop offset="100%" stop-color="#b4b4b8" />
+    </linearGradient>
+
+    <linearGradient id="bodyBevel" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="10%" stop-color="#f0f0f2" />
+      <stop offset="90%" stop-color="#a0a0a5" />
+      <stop offset="100%" stop-color="#606065" />
+    </linearGradient>
+
+    <!-- Glowing cyan/blue screen -->
+    <linearGradient id="screenGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0ea5e9" />
+      <stop offset="100%" stop-color="#0284c7" />
+    </linearGradient>
+    
+    <!-- Music spectrum colors -->
+    <linearGradient id="bar1" x1="0%" y1="100%" x2="0%" y2="0%"><stop offset="0%" stop-color="#ffffff"/><stop offset="100%" stop-color="#f0f9ff"/></linearGradient>
+    <linearGradient id="bar2" x1="0%" y1="100%" x2="0%" y2="0%"><stop offset="0%" stop-color="#ffffff"/><stop offset="100%" stop-color="#bae6fd"/></linearGradient>
+    <linearGradient id="bar3" x1="0%" y1="100%" x2="0%" y2="0%"><stop offset="0%" stop-color="#ffffff"/><stop offset="100%" stop-color="#e0f2fe"/></linearGradient>
+
+    <!-- Wheel and Buttons -->
+    <radialGradient id="wheelOut" cx="50%" cy="50%" r="50%">
+      <stop offset="70%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#d4d4d8" />
+    </radialGradient>
+    <radialGradient id="wheelIn" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="85%" stop-color="#e4e4e7" />
+      <stop offset="100%" stop-color="#a1a1aa" />
+    </radialGradient>
+
+    <!-- Soft shadows and glow -->
+    <filter id="shadowOuter">
+      <feDropShadow dx="0" dy="24" stdDeviation="24" flood-color="#000000" flood-opacity="0.25"/>
+    </filter>
+    <filter id="shadowInner" x="-20%" y="-20%" width="140%" height="140%">
+      <feOffset dx="0" dy="4" />
+      <feGaussianBlur stdDeviation="4" result="offset-blur" />
+      <feComposite operator="out" in="SourceGraphic" in2="offset-blur" result="inverse" />
+      <feFlood flood-color="black" flood-opacity="0.3" result="color" />
+      <feComposite operator="in" in="color" in2="inverse" result="shadow" />
+      <feComposite operator="over" in="shadow" in2="SourceGraphic" />
+    </filter>
+    <filter id="screenGlow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="wheelShadow">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- Deep background (to give icon strict shape for Android) -->
+  <rect width="512" height="512" fill="transparent" />
+
+  <!-- Outer Metallic Bevel -->
+  <rect x="40" y="24" width="432" height="464" rx="64" fill="url(#bodyBevel)" filter="url(#shadowOuter)" />
+  
+  <!-- Main White Body -->
+  <rect x="46" y="30" width="420" height="452" rx="58" fill="url(#bodyBase)" />
+
+  <!-- Inner Silver Outline -->
+  <rect x="52" y="36" width="408" height="440" rx="52" fill="none" stroke="#ffffff" stroke-width="4" opacity="0.8" />
+  
+  <!-- Screen Rim -->
+  <rect x="86" y="66" width="340" height="204" rx="20" fill="#a1a1aa" filter="url(#shadowInner)" />
+  <!-- Screen -->
+  <rect x="90" y="70" width="332" height="196" rx="16" fill="url(#screenGrad)" />
+  
+  <!-- Screen Content: Glowing Visualizer/Bars -->
+  <g filter="url(#screenGlow)">
+    <rect x="136" y="180" width="28" height="46" rx="8" fill="url(#bar1)" opacity="0.9" />
+    <rect x="180" y="140" width="28" height="86" rx="8" fill="url(#bar2)" opacity="0.9" />
+    <rect x="224" y="110" width="28" height="116" rx="8" fill="url(#bar3)" opacity="0.95" />
+    <rect x="268" y="160" width="28" height="66" rx="8" fill="url(#bar1)" opacity="0.9" />
+    <rect x="312" y="190" width="28" height="36" rx="8" fill="url(#bar2)" opacity="0.85" />
+    <rect x="356" y="130" width="28" height="96" rx="8" fill="url(#bar3)" opacity="0.9" />
+  </g>
+  <!-- Screen Bottom Glass Reflection -->
+  <path d="M 90 160 Q 256 180 422 160 L 422 250 Q 422 266 406 266 L 106 266 Q 90 266 90 250 Z" fill="#ffffff" opacity="0.1" />
+
+  <!-- Click Wheel Assembly -->
+  <!-- Outer Wheel -->
+  <circle cx="256" cy="370" r="92" fill="url(#wheelOut)" filter="url(#wheelShadow)" />
+  <!-- Inner Button -->
+  <circle cx="256" cy="370" r="32" fill="url(#wheelIn)" filter="url(#wheelShadow)" stroke="#e4e4e7" stroke-width="1" />
+  
+  <!-- Wheel Buttons (Dark Gray perfectly crisp vectors) -->
+  <!-- MENU -->
+  <path d="M 238 310 L 246 310 L 246 318 L 238 318 Z" fill="#71717a" />
+  <path d="M 252 310 L 260 310 L 260 318 L 252 318 Z" fill="#71717a" />
+  <path d="M 266 310 L 274 310 L 274 318 L 266 318 Z" fill="#71717a" />
+  
+  <!-- PLAY/PAUSE -->
+  <path d="M 244 424 L 244 436 L 254 430 Z" fill="#71717a" />
+  <rect x="258" y="424" width="4" height="12" fill="#71717a" />
+  <rect x="266" y="424" width="4" height="12" fill="#71717a" />
+
+  <!-- PREV -->
+  <path d="M 194 370 L 206 362 L 206 378 Z" fill="#71717a" />
+  <path d="M 180 370 L 192 362 L 192 378 Z" fill="#71717a" />
+  <rect x="174" y="362" width="4" height="16" fill="#71717a" />
+
+  <!-- NEXT -->
+  <path d="M 318 370 L 306 362 L 306 378 Z" fill="#71717a" />
+  <path d="M 332 370 L 320 362 L 320 378 Z" fill="#71717a" />
+  <rect x="334" y="362" width="4" height="16" fill="#71717a" />
+</svg>
